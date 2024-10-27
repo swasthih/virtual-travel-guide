@@ -1,0 +1,63 @@
+
+
+/* styles.css */
+
+body {
+    color:rgb(250, 255, 255);
+    background-image: url('/static/images/bg.png'); /* Absolute path */
+
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    color: rgb(19, 10, 10); /* Change text color for better visibility */
+}
+
+
+.container {
+    max-width: 600px; /* Set a max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 30px; /* Padding for container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color:white; /* White background */
+    transition: transform 0.2s; /* Animation effect */
+}
+
+.container:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+}
+
+h1 {
+    text-align: center; /* Center heading */
+    color: #4CAF50; /* Green color for heading */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding for input */
+    margin: 10px 0; /* Spacing around input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding for button */
+    background-color: #4CAF50; /* Green background */
+    color: rgb(0, 0, 0); /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+#result {
+    margin-top: 20px; /* Spacing above result section */
+    font-size: 1.2em; /* Increase font size */
+    text-align: center; /* Center result text */
+}
